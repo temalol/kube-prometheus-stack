@@ -887,7 +887,7 @@ For example, if you had storage specified as this with **prometheus-operator**:
 volumeClaimTemplate:
   spec:
     storageClassName: gp2
-    accessModes: ["ReadWriteOnce"]
+    accessModes: ["ReadWriteMany"]
     resources:
      requests:
        storage: 50Gi
