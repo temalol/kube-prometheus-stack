@@ -57,7 +57,7 @@ maintainers:
   name: Xtigyro
 - email: quentin.bisson@gmail.com
   name: QuentinBisson
-name: kube-prometheus-stack-fork
+name: kube-prometheus-stack
 sources:
 - https://github.com/prometheus-community/helm-charts
 - https://github.com/prometheus-operator/kube-prometheus
