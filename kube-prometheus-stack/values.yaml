@@ -321,11 +321,7 @@ alertmanager:
       receiver: 'telegram'
     receivers:
     - name: 'telegram'
-      telegram_configs:
-        - bot_token: 6333015779:AAGOp8xorniRp2HQ-28FuIOnsRLEvK7_BIA
-          api_url: https://api.telegram.org
-          chat_id: 381469488
-          parse_mode: ''
+      telegram_secret: []
     templates:
     - '/etc/alertmanager/config/*.tmpl'
 
