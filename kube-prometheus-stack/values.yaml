@@ -319,9 +319,7 @@ alertmanager:
       group_interval: 5m
       repeat_interval: 12h
       receiver: 'telegram'
-    receivers:
-    - name: 'telegram'
-      telegram_secret: []
+    receivers: 
     templates:
     - '/etc/alertmanager/config/*.tmpl'
 
