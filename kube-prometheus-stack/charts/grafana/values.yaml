@@ -768,7 +768,7 @@ grafana.ini:
     url: https://grafana.net
   server:
     domain: 'k8s-uptime.ru'
-  #  serve_from_sub_path: 'true'
+    serve_from_sub_path: 'true'
   #  root_url: '%(protocol)s://%(domain)s:%(http_port)s/grafana/'
 ## grafana Authentication can be enabled with the following values on grafana.ini
  # server:
