@@ -954,12 +954,12 @@ grafana:
   ingress:
     ## If true, Grafana Ingress will be created
     ##
-    enabled: false
+    enabled: true
 
     ## IngressClassName for Grafana Ingress.
     ## Should be provided if Ingress is enable.
     ##
-    # ingressClassName: nginx
+    ingressClassName: nginx
 
     ## Annotations for Grafana Ingress
     ##
@@ -969,7 +969,7 @@ grafana:
 
     ## Labels to be added to the Ingress
     ##
-    labels: {}
+    #labels: {}
 
     ## Hostnames.
     ## Must be provided if Ingress is enable.
@@ -985,7 +985,7 @@ grafana:
     ## TLS configuration for grafana Ingress
     ## Secret must be manually created in the namespace
     ##
-    tls: []
+    #tls: []
     # - secretName: grafana-general-tls
     #   hosts:
     #   - grafana.example.com
