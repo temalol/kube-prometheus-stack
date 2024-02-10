@@ -768,8 +768,8 @@ grafana.ini:
     url: https://grafana.net
   server:
     domain: 'k8s-uptime.ru'
-    serve_from_sub_path: 'true'
-    root_url: '%(protocol)s://%(domain)s:%(http_port)s/grafana/'
+  #  serve_from_sub_path: 'true'
+  #  root_url: '%(protocol)s://%(domain)s:%(http_port)s/grafana/'
 ## grafana Authentication can be enabled with the following values on grafana.ini
  # server:
       # The full public facing url you use in browser, used for redirects and emails
@@ -860,7 +860,7 @@ sidecar:
   alerts:
     enabled: false
     # Additional environment variables for the alerts sidecar
-    env: {}
+    env:
     # Do not reprocess already processed unchanged resources on k8s API reconnect.
     # ignoreAlreadyProcessed: true
     # label that the configmaps with alert are marked with
