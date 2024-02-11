@@ -3309,7 +3309,9 @@ prometheus:
     query: {}
 
     ## If nil, select own namespace. Namespaces to be selected for PrometheusRules discovery.
-    ruleNamespaceSelector: {}
+    ruleNamespaceSelector:
+      matchLabels:
+        prometheus: custom
     ## Example which selects PrometheusRules in namespaces with label "prometheus" set to "somelabel"
     # ruleNamespaceSelector:
     #   matchLabels:
