@@ -3312,6 +3312,8 @@ prometheus:
     ruleNamespaceSelector:
       matchLabels:
         namespace: bookinfo
+        namespace: prometheus
+
     ## Example which selects PrometheusRules in namespaces with label "prometheus" set to "somelabel"
     # ruleNamespaceSelector:
     #   matchLabels:
