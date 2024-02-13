@@ -944,7 +944,7 @@ grafana:
   ##
   defaultDashboardsEditable: true
 
-  adminPassword: prom-operator1
+  #adminPassword: prom-operator
 
   rbac:
     ## If true, Grafana PSPs will be created
